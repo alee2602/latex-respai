@@ -23,10 +23,6 @@ La pregunta definida fue la siguiente. ¿El modelo se basa en rasgos anatómicos
 
 El paquete entregable incluye el archivo `paper.tex` con la redacción del análisis, las figuras generadas en la carpeta `figures/`, el notebook reproducible en `notebooks/shap_analysis.ipynb`, el archivo de referencias `references.bib`, y este registro de prompts y limitaciones.
 
-## Convenciones de redacción solicitadas
-
-Se solicitó que el texto de análisis dentro del paper siguiera un registro académico formal, sin guiones largos, sin el uso de dos puntos dentro de la prosa, sin redundancia, y con conectores lógicos entre ideas. Estas convenciones se aplicaron a las secciones de introducción, metodología, resultados, discusión y limitaciones del documento.
-
 ## Limitaciones del proceso
 
 El análisis se restringe a una única arquitectura de modelo y a tres imágenes, por lo que las conclusiones tienen un alcance exploratorio y no permiten generalizaciones estadísticas. Asimismo, el cálculo de los valores SHAP es aproximado, dado que SHAP utiliza muestreo para estimar las contribuciones de cada región en lugar de un cálculo exacto sobre todas las combinaciones posibles.
